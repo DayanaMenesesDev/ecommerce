@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link rel="stylesheet" href="./public/css/normalize.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <script src="https://kit.fontawesome.com/3cf8ee9758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Iniciar Sesión</span> <i class="fa-solid fa-user"></i></a>
+                </li>
+                
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Bandeja</span> <i class="fa-solid fa-inbox"></i></a>
+                </li>
+                
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Carrito</span> <i class="fa-solid fa-basket-shopping"></i></a>
+                </li>
+                
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Favoritos</span> <i class="fa-solid fa-heart"></i></a>
+                </li>
+                
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Descuentos</span> <i class="fa-solid fa-tags"></i></a>
+                </li>
+                
+                <li class="header__nav__li">
+                    <a href="/"><span hidden>Ayuda y soporte</span> <i class="fa-solid fa-headset"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>ShoppingChimba</h1>
+        <section class="main__section main__section__filtres">
+            <article class="main__section__filtres__search">
+                <form method="get" class="main__section__filtres__search__form">
+                    <div class="main__section__filtres__search__form__container-input-search">
+                        <input type="search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </form>
+            </article>
+
+            <article class="main__section__filtres__categories">
+                <a href="/"> All </a>
+                <a href="/home"> Sport & enternainment </a>
+                <a href="/"> Electronics </a>
+                <a href="/"> Furniture </a>
+                <a href="/"> Fashion & beauty </a>
+                <a href="/"> Industrial </a>
+                <a href="/"> Tools & Home Improvement </a>
+            </article>
+
+            <article class="main__section__filtres__filtresSearch">
+                filtros 
+            </article>
+        </section>
+        <section id="container-products" class="main__section main__section__products">
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="./public/js/index.js"></script>
+</body>
+</html>
